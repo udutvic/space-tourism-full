@@ -98,7 +98,7 @@
 }
 
 .bg-pages {  
-    height: 100dvh;
+    height: 100vh;
     width: 100%;
     position: absolute;
     z-index: -1;
