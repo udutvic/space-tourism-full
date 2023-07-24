@@ -1,7 +1,7 @@
 @media (max-width: 1219px) {
     .bg-home {
         background: url(../assets/img/bg/bg-home-tab.jpg) center / cover no-repeat;
-        height: 150dvh;
+        height: 150vh;
     }
 }
 
@@ -52,7 +52,7 @@
     }
 
     .bg-home {
-        height: 120dvh;
+        height: 120vh;
     }
 }
 
@@ -204,6 +204,6 @@
     }
 
     .bg-home {
-        height: 100dvh;
+        height: 100vh;
     }
 }
