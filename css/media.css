@@ -1,7 +1,6 @@
 @media (max-width: 1219px) {
     .bg-home {
-        background: url(../assets/img/bg/bg-home-tab.jpg) center / cover no-repeat;
-        height: 150vh;
+        background-image: url(../assets/img/bg/bg-home-tab.jpg);
     }
 }
 
@@ -49,10 +48,6 @@
     .content-space p {
         font-size: 16px;
         text-align: center;
-    }
-
-    .bg-home {
-        height: 120vh;
     }
 }
 
@@ -144,8 +139,8 @@
     }
 
     .nav li {
-       padding-bottom: 8px;
-        
+        padding-bottom: 8px;
+
     }
 
     .nav-list {
@@ -201,9 +196,5 @@
     div>.explore__scale {
         width: 150px;
         height: 150px;
-    }
-
-    .bg-home {
-        height: 100vh;
     }
 }
