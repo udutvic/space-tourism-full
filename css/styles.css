@@ -1,13 +1,22 @@
+body {
+    /* height: 100vh; */
+
+}
 
 .header {
     margin-top: 40px;
     padding-left: 55px;
-    height: 96px;    
+    height: 96px;
     display: flex;
-    align-items: center;    
-    width: 100%; 
+    align-items: center;
+    width: 100%;
     margin-bottom: 250px;
     position: relative;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 16px #fff);
+    transition: filter 0.5s ease-in-out;
 }
 
 .burger-menu {
@@ -15,9 +24,9 @@
 }
 
 .line {
-    background: rgba(255, 255, 255, 0.25); 
+    background: rgba(255, 255, 255, 0.25);
     height: 1px;
-    left: 140px;    
+    left: 140px;
     position: absolute;
     right: 800px;
     z-index: 1;
@@ -25,7 +34,7 @@
 
 .nav {
     display: flex;
-    align-items: flex-end;    
+    align-items: flex-end;
     justify-content: center;
     position: absolute;
     right: 0;
@@ -37,7 +46,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;   
+    justify-content: space-between;
     position: absolute;
     width: 542px;
     z-index: 1;
@@ -64,8 +73,8 @@
     content: "";
     position: absolute;
     bottom: 0;
-    left: 50%;   
-    transform: translateX(-50%); 
+    left: 50%;
+    transform: translateX(-50%);
     width: 0;
     height: 3px;
     background-color: #fff;
@@ -84,25 +93,25 @@
 }
 
 .nav-bg {
-    background-color: rgba(255, 255, 255, 0.04);      
-    backdrop-filter: blur(40px);    
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40px);
     height: 100%;
-    position: absolute;
-    /* left: 0;
-    right: 0; */
+    position: absolute;   
     width: 100%;
 }
+
 
 .bg-home {
-    background: url(../assets/img/bg/bg-home.jpg) center / cover no-repeat;
+    background-image: url(../assets/img/bg/bg-home.jpg);
 }
 
-.bg-pages {  
-    height: 100vh;
+.bg-pages {
     width: 100%;
-    position: absolute;
-    z-index: -1;
-    top: 0;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main {
